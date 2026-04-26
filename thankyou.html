@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You | Cross Hill Vacations</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* BODY */
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    /* CONTAINER */
+    .container {
+      width: 100%;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* CARD */
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 55px 40px;
+      border-radius: 20px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+      max-width: 520px;
+      width: 100%;
+      text-align: center;
+      animation: fadeIn 0.9s ease;
+    }
+
+    /* ICON */
+    .icon {
+      font-size: 55px;
+      color: #10B981;
+      margin-bottom: 20px;
+    }
+
+    /* HEADINGS */
+    h1 {
+      font-size: 34px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 300;
+      color: #dcdcdc;
+      margin-bottom: 25px;
+    }
+
+    /* TEXT */
+    p {
+      font-size: 15px;
+      color: #cfcfcf;
+      line-height: 1.6;
+      margin-bottom: 35px;
+    }
+
+    /* BUTTON */
+    .btn {
+      text-decoration: none;
+      background: #F59E0B;
+      padding: 12px 30px;
+      border-radius: 30px;
+      color: #fff;
+      font-size: 14px;
+      transition: 0.3s ease;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px #F59E0B;
+    }
+
+    /* FOOTER */
+    .footer {
+      position: absolute;
+      bottom: 15px;
+      width: 100%;
+      text-align: center;
+      font-size: 13px;
+      color: #aaa;
+    }
+
+    /* ANIMATION */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* RESPONSIVE */
+    @media(max-width: 600px) {
+      .card {
+        padding: 40px 25px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="card">
+
+      <!-- ICON -->
+      <div class="icon">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+
+      <!-- CONTENT -->
+      <h1>Thank You!</h1>
+      <h2>Your request has been submitted successfully</h2>
+
+      <p>
+        We’ve received your details and our team will contact you shortly
+        with the best Kashmir travel packages tailored for you.
+      </p>
+
+      <a href="index.html" class="btn">Return to Homepage</a>
+
+    </div>
+  </div>
+
+  <div class="footer">
+    © 2026 Telacious Tour & Travels. All Rights Reserved | Developed By <b>Anees Irshad Bhat</b>
+  </div>
+
+</body>
+
+</html>
